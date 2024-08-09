@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #001f3f;
+    color: white;
+}
+
+.toggle button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle .active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.toggle button:not(.active) {
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
