@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import '../styles/Counter.css';
 
 const Counter = ({ onBallUpdate }) => {
